@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
 	background-color: #ffffff;
 	color: #777777;
@@ -22,7 +23,6 @@ header {
 	border-color: #cccccc;
 }
 
-
 nav {
 
 }
@@ -33,11 +33,14 @@ ul {
     padding: 0;
 }
 
+input {
+	border: 1px solid #cccccc;
+}
+
 .menu {
 	display: block;
 	float: right;
 	padding: 20px;
-    background-color: #dddddd;
 }
 
 #name {
@@ -76,16 +79,26 @@ h1 {
 	padding: 15px;
 }
 
-
-
 h2 {
 	color: #4aaaa5;
 }
 
-#main-bio {
-
+#main-bio,
+#bio-image {
+	float: left;
 }
 
+#main-bio {
+	width: 650px;
+}
+
+#bio-image {
+	margin-right: 20px;
+}
+
+.contact-form {
+	float: left;
+}
 .connect-with-me {
 	width: 270px;
 	float: right;
@@ -94,14 +107,14 @@ h2 {
 	display: inline-block;
 	margin: 40px;
 	padding: 10px;
-	
+	float: right;
 }
 
 hr {
+	clear: both;
 	height: 2px;
 	width: 500px;
 	color: #d3d3d3;
-    /*color: #777777;*/
 	border: 0 none;
 	background-color: #777777;
 }

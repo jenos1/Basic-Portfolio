@@ -24,7 +24,7 @@ header {
 }
 
 nav {
-
+	/*text-align: left;*/
 }
 
 ul {
@@ -37,27 +37,35 @@ input {
 	border: 1px solid #cccccc;
 }
 
-.menu {
-	display: block;
+.nav-menu {
+	display: inline-block;
 	float: right;
-	padding: 20px;
+	margin: 0;
+	padding: 0;
 }
 
-#name {
-	width: 500px;
-  	height: 40px;
+.nav-menu ul li {
+	display: inline-block;
 }
 
+.nav-menu ul li a {
+	text-decoration: none;
+	color: #777777;
+}
+
+#name,
 #email {
 	width: 500px;
   	height: 40px;
+  	font-size: 18px;
+	color: #777777;
 }
 
 .message {
   	width: 500px;
   	height: 200px;
+  	color: #777777;
 }
-
 
 .button {
 	background-color: #4aaaa5;
@@ -65,7 +73,7 @@ input {
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 22px;
 	margin: 4px 2px;
 	padding: 10px 25px;
 	cursor: pointer;
@@ -98,20 +106,25 @@ h2 {
 
 .contact-form {
 	float: left;
+	/*font-size: 18px;*/
 }
 .connect-with-me {
+	clear: both;
 	width: 270px;
 	float: right;
-	margin: 40px;
+	margin: 20px;
 	margin-left: 250px;
 	display: inline-block;
-	margin: 40px;
 	padding: 10px;
 	float: right;
 }
 
-hr {
+.connect-with-me ul li {
 	clear: both;
+	display: inline-block;
+}
+
+hr {s
 	height: 2px;
 	width: 500px;
 	color: #d3d3d3;
@@ -123,6 +136,7 @@ footer {
 	clear: both;
 	display: block;
 	padding: 30px;
+	margin-top: 20px;
 	background-color: #666666;
 	color: white;
 	height: 60x;

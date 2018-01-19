@@ -1,62 +1,73 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>About | JoAnn Enos</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>      
-
-<body>	
-
-    <header id="top">
-        <div class="container">   
-            <h1>JoAnn Enos</h1>
-            <nav class="nav-menu">
-                <ul>
-                    <li><a href="index.html" target="_blank">About</a></li>
-                    <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
-                    <li><a href="contact.html" target="_blank">Contact</a></li>
-               </ul>
-            </nav>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-white" style="width:100%;">
+      <div class="container">
+        <div class="navbar-header">
+          <a  class="navbar-brand" href="#">JoAnn Enos</a>
         </div>
-    </header>
-
-        <!-- Top Navigation Bar -->
-    <div id="main-bio" class="container">
-        <section class="about">
-            <h1 title="About JoAnn" style="text-align: left">About Me</h1>
-
-            <img id="bio-image" src="assets/images/JELinkedIn.png" alt="JoAnn Enos picture" width=230 height=200>
-
-            <p> I grew up in the Midwest and moved to New England after college. I attended graduate school at the University of New Hampshire, pursuing a career as a speech pathologist. After working in the field for some time, I became interested in computer technology and worked for many years in software quality assurance. 
-            </p>
-
-            <p> I have a musical side, and have played fiddle -- mostly bluegrass and old time music -- for over ten years. I have two Border Terrier dogs, and enjoy showing them in AKC conformation as well as in Earthdog trials.
-            </p>
-
-        </section>
-
-        <!-- Sidebar -->
-        <aside class="connect-with-me">
-            <div id="connect">
-                <h2>Connect with Me</h2>
-                    
-                <ul>
-                    <li><a href="https://github.com/jenos1" target="_blank"><img src="assets/images/if_github2_252065.png" alt="github jenos1" width=70 height=70> </a> </li>
-                    <li><a href="https://www.linkedin.com/in/joannenos " target="_blank"><img src="assets/images/if_linkedin_square_color_107091.png" alt="linkedin JoAnn Enos" width=70 height=70> </a> </li>
-                     <li><a href="https://stackoverflow.com/users/8748575/bordert" target="_blank"> <img src="assets/images/if_stackoverflow_273179.png" alt="stackoverflow bordert" width=70 height=70> </a></li>
-                 </ul>
+        <ul class="nav text-secondary">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link" target="_blank">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link" target="_blank">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="page-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <img id="bio-image" src="assets/images/JELinkedIn.png" alt="JoAnn Enos picture" width=180 height=150>
             </div>
-        </aside>
-
-    </div>
-
-    <footer>
-        <div class="container">
-         Copyright &copy; 2017 JoAnn Enos
+            
+            <div class="col-sm-9">
+              <div class="caption">
+                <p> I grew up in the Midwest and moved to New England after college. I attended graduate school at the University of New Hampshire, pursuing a career as a speech pathologist. After working in the field for some time, I became interested in computer technology and worked for many years in software quality assurance.
+                </p> 
+                <p> I have a musical side, and have played fiddle -- mostly bluegrass and old time music -- for over ten years. I have two Border Terrier dogs, and enjoy showing them in AKC conformation as well as in Earthdog trials.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-header">
+              Connect with Me
+            </div>
+            <div class="card-body d-inline">
+              <blockquote class="blockquote mb-0">
+                <a href="https://github.com/jenos1" class="card-link" target="_blank"><img src="assets/images/github-128.png" class="social" alt="github jenos1" width=70 height=70></a>
+                <a href="https://www.linkedin.com/in/joannenos" class="card-link" target="_blank"><img src="assets/images/if_linkedin_square_color_107091.png" class="social" alt="linkedin JoAnn Enos" width=70 height=70></a>
+                <a href="https://stackoverflow.com/users/8748575/bordert" class="card-link" target="_blank"> <img src="assets/images/if_stackoverflow_273179.png" class="social"alt="stackoverflow bordert" width=70 height=70> </a>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <div class="container">
+        Copyright &copy; 2018 JoAnn Enos
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
